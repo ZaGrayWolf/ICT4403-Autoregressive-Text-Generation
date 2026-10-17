@@ -1,0 +1,6 @@
+name,params,expected,hidden_size,directions
+simple_rnn,7532952,7532952,512,1
+birnn,13379992,13379992,512,2
+lstm,10291608,10291608,512,1
+gru,9372056,9372056,512,1
+birnn_matched,10385752,10385752,392,2

@@ -1,0 +1,93 @@
+{
+  "heldout_ngram_overlap_share": 0.00035268567044308456,
+  "max_single_heldout_work_overlap": 0.0013506668917778154,
+  "near_duplicate_removals": [],
+  "notes": "Hashes use Python tuple hash and are compared only within this process; no hash values are saved.",
+  "overlap_n": 12,
+  "per_work": [
+    {
+      "ngrams": 9970,
+      "overlap_ngrams": 5,
+      "overlap_share": 0.0005015045135406219,
+      "split": "val",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Black Peter.txt"
+    },
+    {
+      "ngrams": 9493,
+      "overlap_ngrams": 1,
+      "overlap_share": 0.00010534077741493732,
+      "split": "val",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Lady Frances Carfax.txt"
+    },
+    {
+      "ngrams": 9421,
+      "overlap_ngrams": 5,
+      "overlap_share": 0.0005307292219509606,
+      "split": "val",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Creeping Man.txt"
+    },
+    {
+      "ngrams": 8501,
+      "overlap_ngrams": 4,
+      "overlap_share": 0.00047053287848488413,
+      "split": "val",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Final Problem.txt"
+    },
+    {
+      "ngrams": 14383,
+      "overlap_ngrams": 10,
+      "overlap_share": 0.0006952652436904679,
+      "split": "val",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Priory School.txt"
+    },
+    {
+      "ngrams": 12072,
+      "overlap_ngrams": 4,
+      "overlap_share": 0.0003313452617627568,
+      "split": "val",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Second Stain.txt"
+    },
+    {
+      "ngrams": 9549,
+      "overlap_ngrams": 0,
+      "overlap_share": 0.0,
+      "split": "val",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Solitary Cyclist.txt"
+    },
+    {
+      "ngrams": 11846,
+      "overlap_ngrams": 16,
+      "overlap_share": 0.0013506668917778154,
+      "split": "val",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Thor Bridge.txt"
+    },
+    {
+      "ngrams": 52995,
+      "overlap_ngrams": 5,
+      "overlap_share": 9.434852344560808e-05,
+      "split": "test",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/novels/The Sign of the Four.txt"
+    },
+    {
+      "ngrams": 12073,
+      "overlap_ngrams": 6,
+      "overlap_share": 0.0004969767249233827,
+      "split": "test",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Adventure of the Speckled Band.txt"
+    },
+    {
+      "ngrams": 11314,
+      "overlap_ngrams": 1,
+      "overlap_share": 8.838607035531201e-05,
+      "split": "test",
+      "work": "datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Red-Headed League.txt"
+    }
+  ],
+  "split_seed": 43,
+  "split_shares": {
+    "test": 0.0945151175950377,
+    "train": 0.7999517622248746,
+    "val": 0.10553312018008769
+  },
+  "within_target_bands": true
+}

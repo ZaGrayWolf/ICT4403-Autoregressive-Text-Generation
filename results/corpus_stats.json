@@ -1,0 +1,109 @@
+{
+  "dataset_name": "Sherlock Holmes Complete Collection",
+  "dataset_source_url": "https://www.kaggle.com/datasets/bengiefigueroa/sherlock-holmes-complete-collection",
+  "license_note": "The selected Kaggle listing is described in PLAN.md as CC0/Public Domain; re-check the live listing and license before submission or redistribution.",
+  "mean_paragraph_length_words": 50.75361669440532,
+  "mean_sentence_length_words_approx": 22.067158363484552,
+  "median_paragraph_length_words": 29.0,
+  "median_sentence_length_words_approx": 19.0,
+  "n_works": 60,
+  "punctuation_token_share": 0.16449166512165253,
+  "top_20_tokens": [
+    {
+      "count": 44123,
+      "token": ","
+    },
+    {
+      "count": 41061,
+      "token": "."
+    },
+    {
+      "count": 36077,
+      "token": "the"
+    },
+    {
+      "count": 30348,
+      "token": "\""
+    },
+    {
+      "count": 17553,
+      "token": "and"
+    },
+    {
+      "count": 16689,
+      "token": "i"
+    },
+    {
+      "count": 16676,
+      "token": "of"
+    },
+    {
+      "count": 16007,
+      "token": "to"
+    },
+    {
+      "count": 15822,
+      "token": "a"
+    },
+    {
+      "count": 11238,
+      "token": "that"
+    },
+    {
+      "count": 10733,
+      "token": "in"
+    },
+    {
+      "count": 10679,
+      "token": "it"
+    },
+    {
+      "count": 10228,
+      "token": "he"
+    },
+    {
+      "count": 9830,
+      "token": "was"
+    },
+    {
+      "count": 9421,
+      "token": "you"
+    },
+    {
+      "count": 7822,
+      "token": "his"
+    },
+    {
+      "count": 6640,
+      "token": "is"
+    },
+    {
+      "count": 6341,
+      "token": "-"
+    },
+    {
+      "count": 6046,
+      "token": "had"
+    },
+    {
+      "count": 5515,
+      "token": "have"
+    }
+  ],
+  "total_bytes_selected": 3862770,
+  "total_characters": 3551474,
+  "total_lexical_tokens": 792873,
+  "total_paragraphs": 15622,
+  "total_tokens_including_paragraph_eos": 808495,
+  "train_vocab_token_share_kept_including_eos": 0.9817056483346914,
+  "unique_tokens_casefolded": 19641,
+  "unk_rate_per_split_including_eos": {
+    "test": 0.041510174703919385,
+    "train": 0.01829435166530861,
+    "val": 0.034832342979032614
+  },
+  "vocab_max_size": 10000,
+  "vocab_min_freq": 3,
+  "vocab_sha256": "509b3e76a46b5676cd882b5afa6f4e5f80cecaf2d418c9e0d8a1f015397bab99",
+  "vocab_size": 8600
+}

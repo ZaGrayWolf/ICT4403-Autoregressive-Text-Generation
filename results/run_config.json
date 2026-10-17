@@ -1,0 +1,301 @@
+{
+  "N_by_split": {
+    "test": 76415,
+    "train": 646757,
+    "val": 85323
+  },
+  "N_by_split_full": {
+    "test": 76415,
+    "train": 646757,
+    "val": 85323
+  },
+  "N_by_split_used": {
+    "test": 76415,
+    "train": 646757,
+    "val": 85323
+  },
+  "all_models_gpu_names": {
+    "birnn_matched_seed42": "Tesla T4",
+    "birnn_seed42": "Tesla T4",
+    "gru_seed42": "Tesla T4",
+    "lstm_seed42": "Tesla T4",
+    "simple_rnn_seed42": "Tesla T4"
+  },
+  "cfg_changes": [],
+  "estimated_worst_case_hours": 2.7996246389097834,
+  "extra_seeds_decision": "skipped: seed-42 training took 2.18h and/or estimated total would exceed budget",
+  "final_config": {
+    "data": {
+      "L": 30,
+      "eval_stride": 1,
+      "exclude_file_names": [
+        "cano.txt"
+      ],
+      "max_vocab": 10000,
+      "min_freq": 3,
+      "min_works": 20,
+      "overlap_n": 12,
+      "overlap_split_max": 0.01,
+      "overlap_work_max": 0.3,
+      "split_bands": [
+        [
+          0.78,
+          0.82
+        ],
+        [
+          0.08,
+          0.12
+        ],
+        [
+          0.08,
+          0.12
+        ]
+      ],
+      "split_max_tries": 200,
+      "split_seed_start": 42,
+      "split_targets": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "train_stride": 1
+    },
+    "gen": {
+      "include_greedy": true,
+      "n_new": 50,
+      "rng_base": 100000,
+      "samples_per_cell": 5,
+      "seed_replacements": [],
+      "seed_texts": [
+        [
+          "S1",
+          "it was a cold foggy morning in baker street and"
+        ],
+        [
+          "S2",
+          "\" my dear watson , \" said holmes , \""
+        ],
+        [
+          "S3",
+          "from the mud upon your boots i can see that you"
+        ],
+        [
+          "S4",
+          "the inspector knelt beside the body and"
+        ],
+        [
+          "S5",
+          "a lady in a thick veil was shown into the room and"
+        ],
+        [
+          "S6",
+          "i have seldom seen my friend so moved as he was when"
+        ]
+      ],
+      "temperatures": [
+        0.5,
+        1.0,
+        1.5
+      ]
+    },
+    "model": {
+      "dropout": 0.3,
+      "embed_dim": 256,
+      "hidden_size": 512,
+      "num_layers": 2
+    },
+    "run": {
+      "ablation_margin": 1.5,
+      "extra_seed_gate_h": 2.0,
+      "extra_seeds": [
+        43,
+        44
+      ],
+      "gen_reserve_h": 0.15,
+      "model_seed": 42,
+      "rating_shuffle_seed": 4242,
+      "time_budget_h": 6.0
+    },
+    "train": {
+      "batch_size": 256,
+      "clip_norm": 1.0,
+      "es_min_delta": 0.001,
+      "es_patience": 3,
+      "eval_batch_size": 1024,
+      "lr": 0.001,
+      "max_epochs": 20,
+      "sched_factor": 0.5,
+      "sched_min_lr": 1e-05,
+      "sched_patience": 1,
+      "subsample_n": 50000,
+      "subsample_seed": 12345,
+      "topk": 5,
+      "weight_decay": 0.0
+    }
+  },
+  "generation_main_expected": 384,
+  "generation_rows": 480,
+  "global_flags": {
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "tf32_cudnn": false,
+    "tf32_matmul": false
+  },
+  "gpu_name": "Tesla T4",
+  "guard_log": [
+    {
+      "action": "initial estimate",
+      "estimate_hours": 2.7996246389097834
+    }
+  ],
+  "heldout_ngram_overlap_share": 0.00035268567044308456,
+  "manual_rating_items": 48,
+  "missing_expected_output_files": [],
+  "numpy_version": "2.1.3",
+  "optional_ablation_trained": true,
+  "output_file_count_before_final_config": 45,
+  "output_total_bytes_before_final_config": 817587716,
+  "pandas_version": "2.3.3",
+  "parameter_counts": {
+    "birnn": 13379992,
+    "birnn_matched": 10385752,
+    "gru": 9372056,
+    "lstm": 10291608,
+    "simple_rnn": 7532952
+  },
+  "peak_gpu_memory_bytes": 1180422656,
+  "removed_near_duplicates": [],
+  "seeds_run": [
+    42
+  ],
+  "shared_digest": "dff9b0c2b9e55af59e2e6caae419bdea0b96112efacabb45991b70ed2948a897",
+  "small_corpus": false,
+  "split_seed": 43,
+  "split_shares": {
+    "test": 0.0945151175950377,
+    "train": 0.7999517622248746,
+    "val": 0.10553312018008769
+  },
+  "split_works": {
+    "test": 3,
+    "train": 49,
+    "val": 8
+  },
+  "started_unix": 1792220390.8642886,
+  "stream_lengths": {
+    "test": 76505,
+    "train": 648227,
+    "val": 85563
+  },
+  "torch_version": "2.11.0+cu128",
+  "total_elapsed_hours": 2.8937800026602214,
+  "train_seed42_wall_s": 7836.352179765701,
+  "train_stride": 1,
+  "training_runs": [
+    {
+      "V": 8600,
+      "best_epoch": 20,
+      "best_path": "/kaggle/working/checkpoints/simple_rnn_seed42_best.pt",
+      "best_val_loss": 4.281912298294056,
+      "epochs_run": 20,
+      "gpu_name": "Tesla T4",
+      "group": "main",
+      "history_rows": 20,
+      "last_path": "/kaggle/working/checkpoints/simple_rnn_seed42_last.pt",
+      "name": "simple_rnn",
+      "params": 7532952,
+      "sec_per_epoch": 64.29969596065,
+      "seed": 42,
+      "shared_digest": "dff9b0c2b9e55af59e2e6caae419bdea0b96112efacabb45991b70ed2948a897",
+      "stop_reason": "max_epochs",
+      "time_to_best_s": 1285.993919213,
+      "train_time_s": 1285.993919213
+    },
+    {
+      "V": 8600,
+      "best_epoch": 20,
+      "best_path": "/kaggle/working/checkpoints/birnn_seed42_best.pt",
+      "best_val_loss": 4.5553533721444905,
+      "epochs_run": 20,
+      "gpu_name": "Tesla T4",
+      "group": "main",
+      "history_rows": 20,
+      "last_path": "/kaggle/working/checkpoints/birnn_seed42_last.pt",
+      "name": "birnn",
+      "params": 13379992,
+      "sec_per_epoch": 148.12901409839992,
+      "seed": 42,
+      "shared_digest": "dff9b0c2b9e55af59e2e6caae419bdea0b96112efacabb45991b70ed2948a897",
+      "stop_reason": "max_epochs",
+      "time_to_best_s": 2962.5802819679984,
+      "train_time_s": 2962.5802819679984
+    },
+    {
+      "V": 8600,
+      "best_epoch": 6,
+      "best_path": "/kaggle/working/checkpoints/lstm_seed42_best.pt",
+      "best_val_loss": 4.049746796273426,
+      "epochs_run": 9,
+      "gpu_name": "Tesla T4",
+      "group": "main",
+      "history_rows": 9,
+      "last_path": "/kaggle/working/checkpoints/lstm_seed42_last.pt",
+      "name": "lstm",
+      "params": 10291608,
+      "sec_per_epoch": 193.8317818055555,
+      "seed": 42,
+      "shared_digest": "dff9b0c2b9e55af59e2e6caae419bdea0b96112efacabb45991b70ed2948a897",
+      "stop_reason": "early_stop",
+      "time_to_best_s": 1162.5121064160012,
+      "train_time_s": 1744.4860362499994
+    },
+    {
+      "V": 8600,
+      "best_epoch": 7,
+      "best_path": "/kaggle/working/checkpoints/gru_seed42_best.pt",
+      "best_val_loss": 4.132614539016443,
+      "epochs_run": 9,
+      "gpu_name": "Tesla T4",
+      "group": "main",
+      "history_rows": 9,
+      "last_path": "/kaggle/working/checkpoints/gru_seed42_last.pt",
+      "name": "gru",
+      "params": 9372056,
+      "sec_per_epoch": 154.04553922722212,
+      "seed": 42,
+      "shared_digest": "dff9b0c2b9e55af59e2e6caae419bdea0b96112efacabb45991b70ed2948a897",
+      "stop_reason": "early_stop",
+      "time_to_best_s": 1077.7175202839999,
+      "train_time_s": 1386.4098530449992
+    },
+    {
+      "V": 8600,
+      "best_epoch": 15,
+      "best_path": "/kaggle/working/checkpoints/birnn_matched_seed42_best.pt",
+      "best_val_loss": 4.457510065839882,
+      "epochs_run": 17,
+      "gpu_name": "Tesla T4",
+      "group": "ablation",
+      "history_rows": 17,
+      "last_path": "/kaggle/working/checkpoints/birnn_matched_seed42_last.pt",
+      "name": "birnn_matched",
+      "params": 10385752,
+      "sec_per_epoch": 116.98894083047055,
+      "seed": 42,
+      "shared_digest": "dff9b0c2b9e55af59e2e6caae419bdea0b96112efacabb45991b70ed2948a897",
+      "stop_reason": "early_stop",
+      "time_to_best_s": 1754.6850352519996,
+      "train_time_s": 1988.8119941179993
+    }
+  ],
+  "unigram_gate_passed": true,
+  "unigram_validation_ppl": 349.9314554573574,
+  "vocab_sha256": "509b3e76a46b5676cd882b5afa6f4e5f80cecaf2d418c9e0d8a1f015397bab99",
+  "vocab_size": 8600,
+  "warnings": [],
+  "window_counts_after_stride": {
+    "test": 76415,
+    "train": 646757,
+    "val": 85323
+  }
+}

@@ -1,0 +1,61 @@
+work,characters,paragraphs,lexical_tokens,tokens_with_eos
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/novels/A Study In Scarlet.txt,238966,812,51677,52489
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/novels/The Hound of the Baskervilles.txt,318044,1503,70607,72110
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/novels/The Sign of the Four.txt,231727,788,52218,53006
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/novels/The Valley of Fear.txt,312020,1537,69950,71487
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/A Case of Identity.txt,37914,140,8476,8616
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/A Scandal in Bohemia.txt,46464,261,10549,10810
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Black Peter.txt,43730,199,9782,9981
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Charles Augustus Milverton.txt,36499,129,8070,8199
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/His Last Bow.txt,32960,168,7450,7618
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Lady Frances Carfax.txt,42123,173,9331,9504
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Shoscombe Old Place.txt,33312,200,7761,7961
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Silver Blaze.txt,52530,230,11582,11812
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Abbey Grange.txt,48679,177,10948,11125
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Adventure of the Beryl Coronet.txt,50985,223,11565,11788
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Adventure of the Blue Carbuncle.txt,42089,216,9659,9875
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Adventure of the Copper Beeches.txt,53012,210,11865,12075
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Adventure of the Engineers Thumb.txt,44610,180,9882,10062
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Adventure of the Noble Bachelor.txt,44090,232,9974,10206
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Adventure of the Speckled Band.txt,52959,253,11831,12084
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Blanched Soldier.txt,41293,171,9157,9328
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Boscombe Valley Mystery.txt,51331,187,11542,11729
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Bruce-Partington Plans.txt,59143,311,13059,13370
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Cardboard Box.txt,45884,136,10189,10325
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Creeping Man.txt,42251,160,9272,9432
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Crooked Man.txt,38162,130,8418,8548
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Dancing Men.txt,52017,223,11580,11803
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Devils Foot.txt,55188,168,11802,11970
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Dying Detective.txt,31336,188,7218,7406
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Empty House.txt,47350,116,10184,10300
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Final Problem.txt,38540,140,8372,8512
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Five Orange Pips.txt,39439,176,8846,9022
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Gloria Scott.txt,41450,146,9313,9459
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Golden Pince-Nez.txt,48228,184,10752,10936
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Greek Interpreter.txt,38360,184,8452,8636
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Illustrious Client.txt,52410,221,11718,11939
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Lions Mane.txt,39038,174,8622,8796
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Man with the Twisted Lip.txt,49160,223,11240,11463
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Mazarin Stone.txt,30994,258,7283,7541
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Missing Three-Quarter.txt,43855,213,9806,10019
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Musgrave Ritual.txt,40744,142,8870,9012
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Naval Treaty.txt,68052,377,15349,15726
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Norwood Builder.txt,50371,215,11200,11415
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Priory School.txt,62219,350,14044,14394
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Red Circle.txt,39708,175,9039,9214
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Red-Headed League.txt,49250,217,11108,11325
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Reigate Puzzle.txt,39567,192,8785,8977
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Resident Patient.txt,36496,180,8050,8230
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Retired Colourman.txt,30190,152,6800,6952
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Second Stain.txt,53112,270,11813,12083
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Six Napoleons.txt,44961,152,9942,10094
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Solitary Cyclist.txt,42356,148,9412,9560
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Stockbrokers Clerk.txt,36505,192,8268,8460
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Sussex Vampire.txt,32335,177,7321,7498
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Three Gables.txt,32479,223,7635,7858
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Three Garridebs.txt,33277,151,7627,7778
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Three Students.txt,35040,214,8035,8249
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/The Veiled Lodger.txt,23689,97,5345,5442
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Thor Bridge.txt,51625,250,11607,11857
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Wisteria Lodge.txt,62251,253,13726,13979
+datasets/bengiefigueroa/sherlock-holmes-complete-collection/sherlock_holmes/short_stories/Yellow Face.txt,39105,155,8895,9050

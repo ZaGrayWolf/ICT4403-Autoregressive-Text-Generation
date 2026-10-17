@@ -1,0 +1,19 @@
+{
+  "candidate_set_for_manual_generation_stage": [
+    "lstm"
+  ],
+  "test_perplexity_rank": [
+    "lstm",
+    "gru",
+    "simple_rnn",
+    "birnn"
+  ],
+  "top_model_disagreement": false,
+  "validation_perplexity_rank": [
+    "lstm",
+    "gru",
+    "simple_rnn",
+    "birnn"
+  ],
+  "warning": "No final winner is selected here. Apply PLAN.md Section 4.7 after completing manual ratings."
+}

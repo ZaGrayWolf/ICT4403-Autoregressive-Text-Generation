@@ -1,0 +1,7 @@
+seed_id,original_seed_text,seed_text,n_tokens,replacement_note,longest_run_train,longest_run_val,longest_run_test,longest_run_overall
+S1,it was a cold foggy morning in baker street and,it was a cold foggy morning in baker street and,10,none,4,3,3,4
+S2,""" my dear watson , "" said holmes , ""","""my dear watson,""said holmes,""",10,none,8,7,7,8
+S3,from the mud upon your boots i can see that you,from the mud upon your boots i can see that you,11,none,5,5,4,5
+S4,the inspector knelt beside the body and,the inspector knelt beside the body and,7,none,3,2,2,3
+S5,a lady in a thick veil was shown into the room and,a lady in a thick veil was shown into the room and,12,none,4,5,4,5
+S6,i have seldom seen my friend so moved as he was when,i have seldom seen my friend so moved as he was when,12,none,4,3,2,4
